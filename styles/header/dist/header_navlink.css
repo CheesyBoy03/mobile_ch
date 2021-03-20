@@ -1,0 +1,26 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  color: #181818;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  position: fixed;
+}
+nav .navbar-brand img {
+  width: 60px;
+  height: 60px;
+}
+
+.header-wrapper__contact {
+  display: flex;
+  flex-direction: column;
+}
+.header-wrapper__contact a {
+  color: #0de3ac;
+}
