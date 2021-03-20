@@ -30,6 +30,13 @@ a {
   max-width: 1300px;
   margin: auto;
 }
+@media screen and (max-width: 500px) {
+  .options .list-of-options {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+}
 .options .list-of-options .option-block {
   display: flex;
   flex-direction: column;
@@ -44,6 +51,11 @@ a {
   background-repeat: no-repeat;
   background-position: right;
 }
+@media screen and (max-width: 500px) {
+  .options .list-of-options .option-block {
+    width: 100%;
+  }
+}
 .options .list-of-options .option-block:nth-child(2) {
   background-image: url("../../../img/options/card2.png");
 }
@@ -55,7 +67,7 @@ a {
   font-size: 32px;
 }
 .options .list-of-options .option-block .learn-more {
-  width: 130px;
+  width: 200px;
   color: #fff;
   padding: 7px 20px;
   border-radius: 10px;
@@ -64,4 +76,9 @@ a {
   font-size: 14px;
   font-weight: 600;
   text-align: center;
+}
+@media screen and (max-width: 500px) {
+  .options .list-of-options .option-block .learn-more {
+    width: 70%;
+  }
 }
