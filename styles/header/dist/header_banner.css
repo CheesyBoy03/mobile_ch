@@ -17,16 +17,11 @@ a {
   height: 80vh;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-around;
 }
-@media screen and (max-width: 1441px) {
-  .header .header-wrapper .header-wrapper__banner .banner__text {
-    padding-left: 30px;
-  }
-}
 .header .header-wrapper .header-wrapper__banner .banner__text h1 {
-  font-size: 56px;
+  font-size: 72px;
   font-weight: bold;
   margin-left: -20px;
   margin-bottom: -30px;
@@ -40,8 +35,14 @@ a {
 }
 @media screen and (max-width: 1050px) {
   .header .header-wrapper .header-wrapper__banner .banner__text h1 {
-    font-size: 3em;
-    margin-bottom: -20px;
+    font-size: 2.7em;
+    margin-bottom: -10px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 370px) {
+  .header .header-wrapper .header-wrapper__banner .banner__text h1 {
+    font-size: 2em;
   }
 }
 .header .header-wrapper .header-wrapper__banner .banner__text p {
@@ -57,6 +58,8 @@ a {
 @media screen and (max-width: 1050px) {
   .header .header-wrapper .header-wrapper__banner .banner__text p {
     font-size: 1em;
+    margin-top: 10px;
+    text-align: center;
   }
 }
 .header .header-wrapper .header-wrapper__banner .banner__text .check-out-order-btn {
@@ -74,18 +77,19 @@ a {
 @media screen and (max-width: 1050px) {
   .header .header-wrapper .header-wrapper__banner .banner__text .check-out-order-btn {
     font-size: 1em;
+    margin: auto;
     padding: 15px 30px;
   }
 }
 .header .header-wrapper .header-wrapper__banner .banner__text .banner__description {
   margin: 30px 0 0 70px;
   display: flex;
-  width: 360px;
+  width: 20%;
 }
 @media screen and (max-width: 1050px) {
   .header .header-wrapper .header-wrapper__banner .banner__text .banner__description {
-    margin-top: 20px;
-    width: 450px;
+    margin-top: 10px auto;
+    width: 40%;
     border: 1xp solid red;
   }
 }
@@ -108,7 +112,7 @@ a {
 .header .header-wrapper .header-wrapper__banner .banner__text .banner__description .text p {
   font-size: 14px;
   margin-top: 0;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 .header .header-wrapper .header-wrapper__banner .banner__text .banner__description .text p:first-child {
   margin: 20px 10px 0;
@@ -125,5 +129,8 @@ a {
 }
 
 .text__with-button {
-  width: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
